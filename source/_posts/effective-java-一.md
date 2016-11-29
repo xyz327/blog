@@ -5,12 +5,13 @@ tags: effective java
 ---
 ##考虑使用静态工厂方法代替构造器
 
-    
+
 ###静态工厂方法相比构造器的<font color="red">优势</font>：
 1. 它们有名称_。根据方法名字可以清楚的知道可以获得什么样子的对象
 2. 不必再每次调用的时候都创建一个新对象。
 3. 它们可以返回原返回类型的任何子类型的对象。    
 4. 在创建参数化类型实例的时候，它们是代码变得更加简洁    
+<!-- more -->
 ```java
          //Service provider framework sketch(描述)
 
@@ -31,7 +32,7 @@ tags: effective java
 
             }
             //maps service name for services
-            private static final Map<String, Provider> providers = 
+            private static final Map<String, Provider> providers =
                 new ConcurrentHashMap<String, Provider>();
             //
             public static final String DEFAULT_PROVIDER_NAME = "<def>";
@@ -58,7 +59,7 @@ tags: effective java
          }
 
 ```
-    
+
 ###静态工厂方法的主要<font color="red">缺点</font>:
 1. _类如果不含公有的或者受保护的构造器，就不能被子类化_
 2. _它们其他的静态方法实际上没有任何区别_
@@ -137,7 +138,7 @@ tags: effective java
         }
     }
 
-    //Test 
+    //Test
     NutritionFacts cocaCola = new NutritionFacts.Builder(240, 2).calories(2)
                                 .fat(2).carbohydrate(2).sodium(0).build();
 ```

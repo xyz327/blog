@@ -202,6 +202,6 @@ NexT.utils = NexT.$u = {
    * @returns {Boolean}
    */
   needAffix: function () {
-    return this.isPisces();
+    return false;//this.isPisces();
   }
 };
