@@ -2,6 +2,7 @@
 title: effective java(一)
 date: 2016-03-14 21:52:18
 tags: effective java
+categories: java
 ---
 ##考虑使用静态工厂方法代替构造器
 
