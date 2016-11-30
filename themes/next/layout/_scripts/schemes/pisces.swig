@@ -6,5 +6,5 @@
 %}
 
 {% for script in scripts %}
-  <script type="text/javascript" src="{{ url_for(theme.js) }}/{{ script }}?v={{ theme.version }}"></script>
+  <script type="text/javascript" src="{{ (config.qiniu.urlPrefix || url_for())+'/'+theme.js }}/{{ script }}?v={{ theme.version }}"></script>
 {% endfor %}

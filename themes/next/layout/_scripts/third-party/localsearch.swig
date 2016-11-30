@@ -1,5 +1,6 @@
 {% if config.search.path %}
   <script type="text/javascript">
+    $('.popup').appendTo($('body'));
     // Popup Window;
     var isfetched = false;
     // Search DB path;
@@ -24,7 +25,7 @@
         success: function( xmlResponse ) {
           // get the contents from search data
           isfetched = true;
-          $('.popup').detach().appendTo('.header-inner');
+          // $('.popup').detach().appendTo('.header-inner');
           var datas = $( "entry", xmlResponse ).map(function() {
             return {
               title: $( "title", this ).text(),

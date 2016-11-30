@@ -4,7 +4,7 @@
 
 # Site
 title: xyz327
-subtitle:
+subtitle: hakuna matata
 description: just do IT
 author: xyz327
 language: zh-Hans
@@ -67,7 +67,7 @@ pagination_dir: page
 #local search
 search:
   path: search.xml
-  field: post
+  field: all
   format: html
   limit: 10000
 #多说
@@ -95,9 +95,9 @@ qiniu:
   bucket: blog
   access_key: nbdoMEDK55xGe5WTB-79VebuzjKiYEgx8ARRosrh
   secret_key: uBvilWE0zvhKsrAdperANb97QzfuftuuDKbVOl4Y
-  dirPrefix: source
-  urlPrefix: http://7xrv3c.com1.z0.glb.clouddn.com/blog
-  local_dir: public
+  dirPrefix:
+  urlPrefix: http://7xrv3c.com1.z0.glb.clouddn.com
+  local_dir: qiniu
   update_exist: true
   image:
     folder: images
@@ -106,6 +106,15 @@ qiniu:
     folder: js
   css:
     folder: css
+
+## uglify
+uglify:
+  mangle: true
+  output:
+  compress:
+  exclude:
+  
+
 ## Themes: https://hexo.io/themes/
 theme: next
 

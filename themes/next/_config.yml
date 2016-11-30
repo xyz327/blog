@@ -150,7 +150,7 @@ social_icons:
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 #avatar:
-avatar: http://7xrv3c.com1.z0.glb.clouddn.com/static/images/avatar/avatar_1.jpg
+avatar: http://7xrv3c.com1.z0.glb.clouddn.com/images/avatar/avatar_1.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -332,9 +332,11 @@ facebook_comments_plugin:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: 2QL6dD6mOyWHGh2H7QpPJYJK-gzGzoHsz
+  #<app_id>
+  app_key: 1zzQPCVkUlrtcRjKszGxgUFE
+    #<app_key>
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
