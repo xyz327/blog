@@ -7,6 +7,7 @@ title: xyz327
 subtitle: hakuna matata
 description: just do IT
 author: xyz327
+email: xyz327@xyz327.cn
 language: zh-Hans
 timezone:
 
@@ -14,7 +15,8 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://blog.xyz327.cn
 root: /
-permalink: :year/:month/:day/:title/
+#permalink: :year/:month/:day/:title/
+permalink: article/:title.html
 permalink_defaults:
 
 # Directory
@@ -113,7 +115,7 @@ uglify:
   output:
   compress:
   exclude:
-  
+
 
 ## Themes: https://hexo.io/themes/
 theme: next

@@ -837,6 +837,22 @@ hexo-generator-archive@^0.1.4:
     hexo-pagination "0.0.2"
     object-assign "^2.0.0"
 
+hexo-generator-baidu-sitemap:
+  version "0.1.2"
+  resolved "http://r.cnpmjs.org/hexo-generator-baidu-sitemap/download/hexo-generator-baidu-sitemap-0.1.2.tgz#46521c35cda1666db2c7e50a14fc87c21a7d5634"
+  dependencies:
+    ejs "^1.0.0"
+    hexo "^3.0.0"
+    hexo-generator-baidu-sitemap "0.0.8"
+    utils-merge "^1.0.0"
+
+hexo-generator-baidu-sitemap@0.0.8:
+  version "0.0.8"
+  resolved "http://r.cnpmjs.org/hexo-generator-baidu-sitemap/download/hexo-generator-baidu-sitemap-0.0.8.tgz#352b55d017cd1b2947ce9cd60af5c4dbebe880bb"
+  dependencies:
+    ejs "^1.0.0"
+    utils-merge "^1.0.0"
+
 hexo-generator-category@^0.1.3:
   version "0.1.3"
   resolved "http://r.cnpmjs.org/hexo-generator-category/download/hexo-generator-category-0.1.3.tgz#b9e6a5862530a83bdd7da4c819c1b9f3e4ccb4b2"
@@ -851,13 +867,20 @@ hexo-generator-index@^0.2.0:
     hexo-pagination "0.0.2"
     object-assign "^4.0.1"
 
-hexo-generator-searchdb:
-  version "1.0.3"
-  resolved "http://r.cnpmjs.org/hexo-generator-searchdb/download/hexo-generator-searchdb-1.0.3.tgz#c5d18d323ed4eb95fbc5319cc078702aa58a0069"
+hexo-generator-search@^1.0.2:
+  version "1.0.2"
+  resolved "http://r.cnpmjs.org/hexo-generator-search/download/hexo-generator-search-1.0.2.tgz#d6232c439b6fbc00db059e0621bd7eb0cb7b5ce1"
   dependencies:
     ejs "^1.0.0"
-    hexo-util latest
     utils-merge "^1.0.0"
+
+hexo-generator-sitemap:
+  version "1.1.2"
+  resolved "http://r.cnpmjs.org/hexo-generator-sitemap/download/hexo-generator-sitemap-1.1.2.tgz#7a9edd7578f4a244d5be7c7d3620f9754cab165a"
+  dependencies:
+    minimatch "^3.0.0"
+    nunjucks "^2.3.0"
+    object-assign "^4.0.1"
 
 hexo-generator-tag@^0.2.0:
   version "0.2.0"
@@ -944,7 +967,7 @@ hexo-util@^0.5.3:
     html-entities "^1.2.0"
     striptags "^2.1.1"
 
-hexo-util@^0.6.0, hexo-util@latest:
+hexo-util@^0.6.0:
   version "0.6.0"
   resolved "http://r.cnpmjs.org/hexo-util/download/hexo-util-0.6.0.tgz#b5719cc2d44d9d45522dddcf96143919824b7803"
   dependencies:
@@ -955,7 +978,7 @@ hexo-util@^0.6.0, hexo-util@latest:
     html-entities "^1.2.0"
     striptags "^2.1.1"
 
-hexo@^3.1.1:
+hexo@^3.0.0, hexo@^3.1.1:
   version "3.2.2"
   resolved "http://r.cnpmjs.org/hexo/download/hexo-3.2.2.tgz#9b8e7022aec95e02021cec140afd7888d4ceb931"
   dependencies:
@@ -1461,7 +1484,7 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "http://r.cnpmjs.org/number-is-nan/download/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nunjucks@^2.4.2:
+nunjucks@^2.3.0, nunjucks@^2.4.2:
   version "2.5.2"
   resolved "http://r.cnpmjs.org/nunjucks/download/nunjucks-2.5.2.tgz#ea7d346e785b8a4874666c3cca9e18c577fba22c"
   dependencies:
