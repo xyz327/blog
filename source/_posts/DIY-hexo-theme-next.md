@@ -61,7 +61,7 @@ $('.popup').appendTo($('body'));
 ```ejs
 //在循环添加script之前添加
 url_for()改为
-(config.qiniu.urlPrefix || url_for())+'/'+theme.js
+(config.qiniu.siteUrlPrefix || url_for())+'/'+theme.js
 ```
-
+ 在项目_config.yaml 中的七牛下添加siteUrlPrefix（这样会影响https）
 done！
