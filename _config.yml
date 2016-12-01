@@ -99,7 +99,7 @@ qiniu:
   secret_key: uBvilWE0zvhKsrAdperANb97QzfuftuuDKbVOl4Y
   dirPrefix:
   urlPrefix: http://7xrv3c.com1.z0.glb.clouddn.com
-  local_dir: qiniu
+  local_dir: static
   update_exist: true
   image:
     folder: images
