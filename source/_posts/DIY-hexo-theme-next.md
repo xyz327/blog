@@ -52,16 +52,16 @@ $('.popup').appendTo($('body'));
 //并注释
 // $('.popup').detach().appendTo('.header-inner');
 ```
-## 修改静态js等文件使用七牛
-> stheme/next/lauout/_script/commons.swig
-> theme/next/lauout/_partials/head.swig
-> theme/next/lauout/_script/bootstrap.swig
-> theme/next/lauout/_script/schemes/pisces.swig
+~~## 修改静态js等文件使用七牛~~
+~~> stheme/next/lauout/_script/commons.swig~~
+~~> theme/next/lauout/_partials/head.swig~~
+~~> theme/next/lauout/_script/bootstrap.swig~~
+~~> theme/next/lauout/_script/schemes/pisces.swig~~
 
 ```ejs
 //在循环添加script之前添加
 url_for()改为
 (config.qiniu.siteUrlPrefix || url_for())+'/'+theme.js
 ```
- 在项目_config.yaml 中的七牛下添加siteUrlPrefix（这样会影响https）
+ ~~在项目_config.yaml 中的七牛下添加siteUrlPrefix（这样会影响https）~~
 done！
