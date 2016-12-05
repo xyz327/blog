@@ -150,7 +150,7 @@ social_icons:
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 #avatar:
-avatar: http://7xrv3c.com1.z0.glb.clouddn.com/images/avatar/avatar_1.jpg
+avatar: /images/avatar/avatar_1.jpg
 
 
 # Table Of Contents in the Sidebar

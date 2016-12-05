@@ -58,7 +58,7 @@ $('.popup').appendTo($('body'));
 ~~> theme/next/lauout/_script/bootstrap.swig~~
 ~~> theme/next/lauout/_script/schemes/pisces.swig~~
 
-```ejs
+```ejsfont
 //在循环添加script之前添加
 url_for()改为
 (config.qiniu.siteUrlPrefix || url_for())+'/'+theme.js
