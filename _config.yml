@@ -64,7 +64,8 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-#plugins:
+plugins:
+  #- hexo-html-minifier
  # - hexo-qiniu-sync
 #local search
 search:
@@ -109,12 +110,29 @@ qiniu:
   css:
     folder: css
 
-## uglify
-uglify:
+## https://github.com/chenzhutian/hexo-all-minifier
+js_minifier:
+  enable: true
   mangle: true
   output:
   compress:
   exclude:
+    - '*.min.js'
+## html minify
+html_minifier:
+  enable: false
+  exclude:
+css_minifier:
+  enable: true
+  exclude:
+    - '*.min.css'
+image_minifier:
+  enable: true
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
 
 
 ## Themes: https://hexo.io/themes/
