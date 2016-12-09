@@ -78,7 +78,7 @@ duoshuo_shortname: xyz-blog
 # 多说分享服务
 duoshuo_share: true
 #baudi统计
-baidu_analytics: 1a3aea8ede1d8c53dbbfaf8c97c2eb63
+baidu_analytics: 0729ac685bdd8ae2db011f10ca53844b
 #七牛云存储设置
 ##offline       是否离线. 离线状态将使用本地地址渲染
 ##sync          是否同步
