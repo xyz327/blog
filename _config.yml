@@ -111,28 +111,22 @@ qiniu:
     folder: css
 
 ## https://github.com/chenzhutian/hexo-all-minifier
-js_minifier:
-  enable: true
-  mangle: true
-  output:
-  compress:
-  exclude:
-    - '*.min.js'
+#js_minifier:
+# enable: true
+# mangle: true
+#  output:
+#  compress:
+#  exclude:
+#    - '*.min.js'
 ## html minify
 html_minifier:
   enable: false
-  exclude:
-css_minifier:
-  enable: true
-  exclude:
-    - '*.min.css'
-image_minifier:
-  enable: true
-  interlaced: false
-  multipass: false
-  optimizationLevel: 2
-  pngquant: false
-  progressive: false
+#  exclude:
+#css_minifier:
+#  enable: true
+#  exclude:
+#    - '*.min.css'
+
 
 
 ## Themes: https://hexo.io/themes/
