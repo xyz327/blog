@@ -36,6 +36,7 @@ karma start karma.conf.js
 ```
 
 karma.conf.js 具体内容
+<!--more-->
 ```javascript
 module.exports = function(config) {
   config.set({
