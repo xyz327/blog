@@ -23,6 +23,7 @@ permalink_defaults:
 source_dir: source
 public_dir: public
 tag_dir: tags
+photos_dir: photos
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
