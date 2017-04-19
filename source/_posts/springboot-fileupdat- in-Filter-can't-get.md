@@ -34,7 +34,7 @@ Filter里面做匹配Uri后获取`request.getInputStream()`用httpClient转发�
 在Filter里面debug发现压根就获取不到文件...
 
 **经过各种google/baidu以及debug后，发现需要在`application.properties`里面添加文件上传的临时路径..**
-
+**或者不使用springboot而使用tomcat部署项目...**
 ```
 spring.http.multipart.location= /tmp # 上传文件的临时目录
 ```

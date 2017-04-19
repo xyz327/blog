@@ -58,10 +58,16 @@ self.addEventListener('fetch', function(e) {
 
 //  var allDataUrl = extendDataUrl.concat(filesToCache);
   var url = e.request.url//.split('?')[0];
-  var excludeUrls = ['https://hm.baidu.com/hm.gif']
-  if(excludeUrls.indexOf(url.split('?')[0]) !== -1){
-      e.respondWith(fetch(e.request));
-      return;
+  var excludeUrls = ['https://hm.baidu.com','https://sp0.baidu.com', 'chrome-extension']
+  for (var index in excludeUrls) {
+    if (excludeUrls.hasOwnProperty(index)) {
+      var element = excludeUrls[index];
+      if(url.indexOf(url) === 0){
+        //不做处理
+        //e.respondWith(fetch(e.request));
+        return;
+      }
+    }
   }
   if(e.request.method === 'GET'){
     e.respondWith(
