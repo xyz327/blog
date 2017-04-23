@@ -65,3 +65,14 @@ HOME=windows的用户目录
 现在在cmd或者cywin的终端里面输入zsh. 
 
 以后就win+R 输入zsh吧~
+
+## 安装 `apt-cyg` 
+
+cywin里面类似于`apt-get`的软件包安装工具。立马装上
+
+``` bash
+wget https://raw.githubusercontent.com/transcode-open/apt-cyg/master/apt-cyg -O apt-cyg
+install apt-cyg /bin
+```
+
+现在可以用`apt-cyg install vim`来在cywin上安装`vim`了~
