@@ -70,7 +70,7 @@ HOME=windows的用户目录
 
 cywin里面类似于`apt-get`的软件包安装工具。立马装上
 
-``` bash
+```bash
 wget https://raw.githubusercontent.com/transcode-open/apt-cyg/master/apt-cyg -O apt-cyg
 install apt-cyg /bin
 ```
