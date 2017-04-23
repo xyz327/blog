@@ -1,9 +1,9 @@
 ---
 title: windows使用oh-my-zsh
 date: 2017-04-22 20:49:51
-tags:
-categories:
-keywords:
+tags: 
+categories: [other]
+keywords: [windows terminal zsh oh-my-zsh ]
 ---
 
 开发有时候需要使用terminal,无奈家里电脑还是只能用Windows,但是感觉CMD真的很难用,就是是powershell也不太习惯
