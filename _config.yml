@@ -17,6 +17,7 @@ url: https://blog.xyz327.cn
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: article/:title.html
+#permalink: article/:category/:id.html
 permalink_defaults:
 
 # Directory
