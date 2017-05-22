@@ -53,4 +53,15 @@ loopback-demo
 |   |--server.js //启动文件
 |
 ```
-创建一个多应用的用户管理的restfulApi程序
+创建一个用户管理的restfulApi程序
+
+### 新建BaseUser模型
+```shell
+lb model 
+#根据提示创建一个名为BaseUser的模型 继承自User
+```
+`User`模型为loopback内置的用户模型，包含了login/logout/accesstoken等方法属性，我们自己的用户模型自己继承与它就行
+
+### 新建File模型
+
+`PersistedModel`模型为内置的包含CRUD的存储模型
