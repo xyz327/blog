@@ -144,6 +144,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://git.coding.net/xyz327/blog.git
+  repo: 
+    coding: https://git.coding.net/xyz327/blog.git
+    github: https://github.com/xyz327/blog.git,master
   branch: coding-pages
   message: deploy
