@@ -145,7 +145,7 @@ theme: next
 deploy:
   type: git
   repo: 
-    coding: https://git.coding.net/xyz327/blog.git
+    #coding: https://git.coding.net/xyz327/blog.git
     github: https://github.com/xyz327/blog.git,master
   branch: coding-pages
   message: deploy
