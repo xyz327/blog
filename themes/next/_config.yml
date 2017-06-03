@@ -151,7 +151,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+#avatar://7xrv3c.com1.z0.glb.clouddn.com
 avatar: /images/avatar/avatar_1.jpg
 
 
@@ -464,9 +464,9 @@ vendors:
 
 
 # Assets
-css:  //7xrv3c.com1.z0.glb.clouddn.com/css
-js:  //7xrv3c.com1.z0.glb.clouddn.com/js
-images:  //7xrv3c.com1.z0.glb.clouddn.com/images
+css:  css
+js:  js
+images:  images
 
 # Theme version
 version: 5.1.0
