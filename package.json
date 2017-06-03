@@ -9,7 +9,7 @@
     "deploy": "hexo clean && hexo g && hexo d",
     "coding-commit": "git add -A && git commit -m 'commit' && git push origin pages",
     "github-commit": "git add -A && git commit -m 'commit' && git push github pages --force",
-    "commit": "npm run deploy && npm run coding-commit && npm run github-commit"
+    "commit": "npm run deploy && npm run coding-commit"
   },
   "dependencies": {
     "hexo": "^3.1.1",

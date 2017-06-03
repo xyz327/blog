@@ -70,8 +70,8 @@ menu_icons:
 #scheme: Muse
 #scheme: Mist
 scheme: Pisces
-
-
+since: 2016
+canvas_nest: true #开启动画
 # ---------------------------------------------------------------
 # Font Settings
 # - Find fonts on Google Fonts (https://www.google.com/fonts)
@@ -415,7 +415,8 @@ fancybox: true
 # Please use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Internal path prefix. Please do not edit it.
-  _internal: lib
+  #_internal: lib
+  _internal:  //7xrv3c.com1.z0.glb.clouddn.com
 
   # Internal version: 2.1.3
   jquery: //cdn.bootcss.com/jquery/2.1.3/jquery.min.js
@@ -452,6 +453,9 @@ vendors:
   # See: http://fontawesome.io/
   fontawesome: //cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
 
+# Internal version: 1.0.0
+  # https://github.com/hustcc/canvas-nest.js
+  canvas_nest: //cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js
   # Internal version: 1
   # https://www.algolia.com
   algolia_instant_js:
@@ -460,9 +464,9 @@ vendors:
 
 
 # Assets
-css: css
-js: js
-images: images
+css:  //7xrv3c.com1.z0.glb.clouddn.com/css
+js:  //7xrv3c.com1.z0.glb.clouddn.com/js
+images:  //7xrv3c.com1.z0.glb.clouddn.com/images
 
 # Theme version
 version: 5.1.0
