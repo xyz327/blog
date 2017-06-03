@@ -8,7 +8,7 @@ $(document).ready(function () {
   var affix = function() {
     var sidebarTop = $headerInner.height() + 10;
     $('#sidebar').css({ 'margin-top': sidebarTop }).affix();
-    if (document.body.clientWidth < 991) {
+    if (document.body.clientWidth < 975) {
       $headerInner.css({position: 'static'})
     } else {
       $headerInner.css({position: 'fixed'})

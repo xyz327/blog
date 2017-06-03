@@ -11,7 +11,7 @@ keywords: "xyz327, xzz小舟舟同學,博客"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: 
 
 # Specify the date when the site was setup
 #since: 2015
@@ -132,7 +132,7 @@ font:
 social:
   GitHub: https://github.com/xyz327
   Weibo: http://weibo.com/xyz327
-
+  知乎: https://www.zhihu.com/people/xyz327
 
 # Social Links Icons
 # Icon Mapping:
