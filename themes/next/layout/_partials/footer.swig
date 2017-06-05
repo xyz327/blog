@@ -19,4 +19,19 @@
     NexT.{{ theme.scheme }}
   </a>
 </div>
+<style>
+  .hosted-info {
+    display: inline-block;
+  }
+  .theme-info::after {
+    content: "|";
+    padding-left: 10px;
+  }
+  .theme-info {
+    margin-right: 10px;
+  }
+</style>
+<div class="hosted-info">
+  <p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+</div>
 {% endif %}
