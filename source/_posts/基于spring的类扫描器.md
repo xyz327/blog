@@ -16,7 +16,6 @@ keywords: spring
 第一次是`addIncludeFilter` 添加的条件
 第二次是调用`isCandidateComponent(AnnotatedBeanDefinition)`方法
 
- 
 ```java
 /**
  * Entity的扫描类，提供entity的包
@@ -27,7 +26,7 @@ public class ClassPathCacheEntityScanner extends ClassPathScanningCandidateCompo
     private Logger logger = LoggerFactory.getLogger(getClass());
 
     ClassPathCacheEntityScanner(BeanDefinitionRegistry registry) {
-        super(false);//不适用默认的过滤器
+        super(false);//不使用默认的过滤器
         //添加自己的过滤器
          addIncludeFilter(new AnnotationTypeFilter(Entity.class));
          addIncludeFilter(new AnnotationTypeFilter(Table.class));
