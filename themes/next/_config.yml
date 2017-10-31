@@ -187,11 +187,11 @@ sidebar:
 
 
 # Blogrolls 链接
-#links_title: Links
-#links_layout: block
+links_title: Links
+links_layout: block
 #links_layout: inline
-#links:
-  #Links: link
+links:
+  漠北空城: http://www.yuechang.space/
 
 
 # ---------------------------------------------------------------
