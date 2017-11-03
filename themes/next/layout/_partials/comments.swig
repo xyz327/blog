@@ -22,6 +22,8 @@
       <div id="hypercomments_widget"></div>
     {% elseif theme.livere_uid %}
        <div id="lv-container" data-id="city" data-uid="{{ theme.livere_uid }}"></div>
+    {% elseif theme.uyan_uid %}
+      <div id="uyan_frame"></div>
     {% endif %}
   </div>
 {% endif %}

@@ -271,18 +271,20 @@ mathjax:
 
 # Hypercomments
 #hypercomments_id:
-livere_uid: MTAyMC8yODkzNy81NTA2
+
+uyan_uid: 1998877
+# livere_uid: MTAyMC8yODkzNy81NTA2
 # Baidu Share
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
+#baidushare: true
 ##  type: button
 
 # Share
-#jiathis:
+#jiathis: false
 # Warning: JiaThis does not support https.
-#add_this_id:
+#add_this_id: 1998877
 
 # Share
 #duoshuo_share: true
@@ -296,7 +298,7 @@ livere_uid: MTAyMC8yODkzNy81NTA2
 #google_analytics:
 
 # CNZZ count
-#cnzz_siteid:
+cnzz_siteid: 1000536644
 
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
@@ -306,8 +308,8 @@ livere_uid: MTAyMC8yODkzNy81NTA2
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
-  admin_enable: true
+  ua_enable: false
+  admin_enable: false
   user_id: 10130119
   #admin_nickname: Author
 
@@ -360,7 +362,7 @@ busuanzi_count:
 
 # cnzz_siteid: 1000536644
 # Tencent analytics ID
-# tencent_analytics:
+# tencent_analytics: 64039091
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
