@@ -9,7 +9,7 @@ keywords: zuul, spring cloud
 zuul是spring cloud的网关组件，用户在微服务中提供一个统一的对外接口，官方对zuul的说明是 
 
 `Zuul is an edge service that provides dynamic routing, monitoring, resiliency, security, and more. `
-<!-more-->
+<!--more-->
 ## ZuulFilter
 zuul是的核心就是`com.netflix.zuul.ZuulFilter`,对于zuul网关的相关功能都是通过扩展这个ZuulFilter来实现的
 
