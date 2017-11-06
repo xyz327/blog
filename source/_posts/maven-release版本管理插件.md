@@ -87,5 +87,11 @@ mvn release:perform
 mvn release:rollback
 ```
 
+使用`mvn release`命令时 如需要添加跳过测试之类的参数 需要使用`-Darguments`进行指定
+
+```bash
+ mvn release:perform -Darguments="-Dmaven.test.skip=true -Dmaven.javadoc.skip=true" 
+```
+
 
 
