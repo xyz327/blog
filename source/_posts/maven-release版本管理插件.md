@@ -40,6 +40,15 @@ keywords: maven
 ```
 配置好后可以使用mvn的scm命令管理
 
+添加scm插件
+```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-scm-plugin</artifactId>
+    <version>1.9.5</version>
+</plugin>
+
+```
 ```bash
  #提交
 mvn -Dmessage="<commit_log_here>" scm:checkin
