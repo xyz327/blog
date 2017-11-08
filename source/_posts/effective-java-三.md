@@ -18,3 +18,12 @@ equals方法实现了等价关系
 3. 传递性： 对于任何非`null`的引用值`x`,'y'和`z`，如果`x.equals(y)`返回`true`，并且`y.equals(z)`也返回`true`，那么`x.equals(z)`也必须返回`true`;
 4. 一致性： 对于任何非`null`的引用值`x`和`y`，只要`equals`中的比较信息没有被改变，多次调用`x.equals(y)`就会一直返回`true`或者`false`;
 5. 对于任何非`null`的引用值`x`，`x.equals(null)`必须返回`false`;
+
+## 第九条： 覆盖equals时总要覆盖hashCode
+
+## 第十条： 始终要覆盖toString
+
+## 第十一条： 谨慎覆盖clone
+
+## 第十二条： 考虑实现Comparable接口
+    compareTo 方法返回值为负值，0，正值， 表示 小于， 等于， 大于
