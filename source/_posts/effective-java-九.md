@@ -18,6 +18,7 @@ keywords: effective java
 ## 第60条：优先使用标准的异常
 
 |异常|使用场合|
+|---|---|
 |IllegalArgumentException | 非null的参数值不正确|
 |IllegalStateException | 对于方法调用而言，对象状态不合适|
 |NullPointerException | 在禁止使用null的情况下参数值为null|
