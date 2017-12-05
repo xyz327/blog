@@ -7,11 +7,11 @@ keywords: maven
 ---
 使用maven管理项目时，完成开发后需要把项目发布到maven私服上去。
 
-手动执行`mvn clean deploy`就可以部署到私服上。
+手动`SNAPSHOT`版本开发时执行`mvn clean deploy`就可以部署到私服上。
 
 在开发是还会需要SNAPSHOT版本和RELEASE版本可以用`mvn versions:set -DnewVersion=0.1.1-SNAPSHOT`进行更改版本号
 
-当然maven还有更好的管理插件进行管理`maven-release-plugin`
+当然maven还有更好的管理插件进行RELEASE管理`maven-release-plugin`
 
 <!--more-->
 
@@ -30,8 +30,8 @@ keywords: maven
 在pom.xml添加scm信息(SCM：Software Configuration Management)
 ```xml
   <scm>
-    <!--maven仓库地址-->
-    <url>http://192.168.8.194/content/repositories/releases/</url>
+    <!--项目url-->
+    <url>http://192.168.8.65/xx/cli</url>
     <!--代码版本仓库地址-->
     <connection>scm:git:http://192.168.8.65/xx/cli.git</connection>
     <developerConnection>scm:git:http://192.168.8.65/xx/cli.git</developerConnection>
