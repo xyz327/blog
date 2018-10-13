@@ -107,7 +107,7 @@ qiniu:
   access_key: nbdoMEDK55xGe5WTB-79VebuzjKiYEgx8ARRosrh
   secret_key: uBvilWE0zvhKsrAdperANb97QzfuftuuDKbVOl4Y
   dirPrefix:
-  urlPrefix: http://7xrv3c.com1.z0.glb.clouddn.com
+  urlPrefix: http://cdn.xyz327.cn
   local_dir: static
   update_exist: true
   image:

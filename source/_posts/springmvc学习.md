@@ -9,7 +9,7 @@ keywords: spring springmvc
 
 Springmvc的入口是`DispatcherServlet`，先从这里看起
 `DispatcherServlet`的继承关系图
- ![dispatcherServlet继承图](http://7xrv3c.com1.z0.glb.clouddn.com/images/post/spring/dispatcher-servlet.png)
+ ![dispatcherServlet继承图](http://cdn.xyz327.cn/images/post/spring/dispatcher-servlet.png)
 <!--more-->
 
 ## 初始化
