@@ -1,7 +1,7 @@
 ---
 title: springmvc学习
 date: 2018-03-20 12:18:39
-tags:
+tags: springmvc
 categories: [springmvc]
 keywords: spring springmvc
 ---
@@ -39,7 +39,6 @@ Springmvc的入口是`DispatcherServlet`，先从这里看起
     initBeanWrapper(bw);
     //将配置的初始化值设置到DispatcherServlet中
     bw.setPropertyValues(pvs, true);
-
     ```
 3. `org.springframework.web.servlet.FrameworkServlet#initServletBean()`
     初始化SpringMvc的Ioc容器
