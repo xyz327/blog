@@ -47,7 +47,7 @@ springmvc为`MultipartResolver`提供了两种实现
     使用HTTPServletRequest自带的解析文件
  2. `CommonsMultipartResolver`
     使用apache commons-io 处理上传的文件
-![MultipartResolver实现类](http://7xrv3c.com1.z0.glb.clouddn.com/images/post/springmvc/multipartResolver.png)
+![MultipartResolver实现类](http://cdn.xyz327.cn/images/post/springmvc/multipartResolver.png)
 
 ## MultipartHttpServletRequest
 
@@ -80,7 +80,7 @@ public interface MultipartRequest {
 springmvc对于`MultipartHttpServletRequest`同样提供了两种实现
  1. `StandardMultipartHttpServletRequest`
  2. `DefaultMultipartHttpServletRequest`
-![MultipartHttpServletRequest实现类](http://7xrv3c.com1.z0.glb.clouddn.com/images/post/springmvc/multiparHttpServletRequest.png)
+![MultipartHttpServletRequest实现类](http://cdn.xyz327.cn/images/post/springmvc/multiparHttpServletRequest.png)
 
 ## MultipartFile
 
@@ -134,4 +134,4 @@ springmvc同样提供了两种实现
  1. `StandardMultipartFile`
  2. `CommonsMultipartFile`
 
- ![MultipartFile实现类](http://7xrv3c.com1.z0.glb.clouddn.com/images/post/springmvc/multipartFile.png)
+ ![MultipartFile实现类](http://cdn.xyz327.cn/images/post/springmvc/multipartFile.png)
