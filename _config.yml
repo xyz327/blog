@@ -15,8 +15,8 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blog.xyz327.cn
 root: /
-#permalink: :year/:month/:day/:title/
-permalink: article/:title.html
+permalink: :year/:month/:day/:title/
+#permalink: article/:title.html
 #permalink: article/:category/:id.html
 permalink_defaults:
 
@@ -107,7 +107,7 @@ qiniu:
   access_key: nbdoMEDK55xGe5WTB-79VebuzjKiYEgx8ARRosrh
   secret_key: uBvilWE0zvhKsrAdperANb97QzfuftuuDKbVOl4Y
   dirPrefix:
-  urlPrefix: http://7xrv3c.com1.z0.glb.clouddn.com
+  urlPrefix: http://cdn.xyz327.cn
   local_dir: static
   update_exist: true
   image:
