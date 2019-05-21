@@ -8,7 +8,7 @@ var filesToCache = [
     'https://blog.xyz327.cn/js/src/schemes/pisces.js?v=5.1.0',
     'https://blog.xyz327.cn/js/src/bootstrap.js?v=5.1.0',
     'https://blog.xyz327.cn/js/src/hook-duoshuo.js?v=5.1.0',
-    'https://blog.xyz327.cn/images/avatar/avatar_1.jpg',
+    'https://blog.xyz327.cn/images/avatar/avatar.jpg',
     'https://blog.xyz327.cn/css/style.css?v=5.1.0',
     'https://blog.xyz327.cn/css/main.css?v=5.1.0',
 
