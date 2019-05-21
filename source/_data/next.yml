@@ -1236,7 +1236,10 @@ vendors:
   disqusjs_js:
   disqusjs_css:
 
-# Assets
-css: http://cdn.xyz327.cn/css
-js: http://cdn.xyz327.cn/js
-images: http://cdn.xyz327.cn/images
+# Assets 七牛云不支持免费https...
+#css: http://cdn.xyz327.cn/css
+css: css
+#js: http://cdn.xyz327.cn/js
+js: js
+#images: http://cdn.xyz327.cn/images
+images: images
