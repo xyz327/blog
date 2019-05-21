@@ -12,21 +12,7 @@ var filesToCache = [
     'https://blog.xyz327.cn/css/style.css?v=5.1.0',
     'https://blog.xyz327.cn/css/main.css?v=5.1.0',
 
-    'https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css',
-    'https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext',
-    'https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css',
-    'https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js',
-    'https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js',
-    'https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js',
-    'https://cdn.bootcss.com/velocity/1.2.1/velocity.min.js',
-    'https://cdn.bootcss.com/velocity/1.2.1/velocity.ui.min.js',
-    'https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js',
-    'https://cdn.bootcss.com/UAParser.js/0.7.9/ua-parser.min.js',
-    'https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js',
-    'https://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2',
-    'https://cdn.bootcss.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0',
-    'https://fonts.gstatic.com/s/lato/v13/H2DMvhDLycM56KNuAtbJYA.woff2',
-    'https://fonts.gstatic.com/s/lato/v13/PLygLKRVCQnA5fhu3qk5fQ.woff2'
+
 ];
 
 self.addEventListener('install', function(e) {

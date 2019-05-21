@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 plugins:
-  #- hexo-html-minifier
+ # - hexo-html-minifier
  # - hexo-qiniu-sync
 #local search
 search:
