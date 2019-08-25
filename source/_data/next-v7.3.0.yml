@@ -27,7 +27,7 @@ custom_file_path:
   #sidebar: source/_data/sidebar.swig
   #postMeta: source/_data/post-meta.swig
   #postBodyEnd: source/_data/post-body-end.swig
-  footer: source/_data/layout/footer.swig
+  #footer: source/_data/footer.swig
   #bodyEnd: source/_data/body-end.swig
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
@@ -157,11 +157,11 @@ baidu_push: true
 # External url should start with http:// or https://
 menu:
   home: / || home
-  about: /about/ || user
+  #about: /about/ || user
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  #schedule: /schedule/ || calendar
+  schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
@@ -321,7 +321,7 @@ symbols_count_time:
   wpm: 275
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
-tag_icon: true
+tag_icon: false
 
 # Wechat Subscriber
 wechat_subscriber:
@@ -418,7 +418,7 @@ android_chrome_color: "#222"
 safari_rainbow: false
 
 # Optimize the display of scrollbars on webkit based browsers.
-custom_scrollbar: true
+custom_scrollbar: false
 
 # Custom Logo (Do not support scheme Mist)
 custom_logo: #/uploads/custom-logo.jpg
@@ -432,9 +432,9 @@ codeblock:
   copy_button:
     enable: true
     # Show text copy result.
-    show_result: true
+    show_result: false
     # Available values: default | flat | mac
-    style: mac
+    style:
 
 back2top:
   enable: true
@@ -568,7 +568,7 @@ mediumzoom: false
 
 # Vanilla JavaScript plugin for lazyloading images.
 # For more information: https://github.com/ApoorvSaxena/lozad.js
-lazyload: false
+lazyload: true
 
 # Pangu Support
 # For more information: https://github.com/vinta/pangu.js

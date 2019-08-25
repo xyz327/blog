@@ -2,6 +2,10 @@
 Custom head.
 #}
 <script type="text/javascript" >
+window.blogVersion = {
+  hexo: '{{ hexo_env('version') }}',
+  Next: '{{version}}'
+}
 if('serviceWorker' in navigator) {
 	//注册上一步创建的js文件
     navigator.serviceWorker

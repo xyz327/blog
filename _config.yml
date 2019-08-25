@@ -81,6 +81,11 @@ search:
   field: all
   format: html
   limit: 10000
+algolia:
+  applicationID: F8M7RI1P62
+  apiKey: 9dfe926af4c833e98ed3a7eb7f05d473
+  indexName: blog
+  chunkSize: 5000
 #多说
 #duoshuo_shortname: xyz-blog
 # 多说分享服务
