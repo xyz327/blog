@@ -82,9 +82,9 @@ search:
   format: html
   limit: 10000
 algolia:
-  applicationID: F8M7RI1P62
-  apiKey: 9dfe926af4c833e98ed3a7eb7f05d473
-  indexName: blog
+  applicationID: V9U4YA0CQ5
+  apiKey: 75a83a055e3a2ab9abf9aef5bf6e2261
+  indexName: prod_blog
   chunkSize: 5000
 #多说
 #duoshuo_shortname: xyz-blog
@@ -124,6 +124,7 @@ qiniu:
     folder: css
 
 ## https://github.com/chenzhutian/hexo-all-minifier
+all_minifier: true
 #js_minifier:
 # enable: true
 # mangle: true
@@ -132,8 +133,8 @@ qiniu:
 #  exclude:
 #    - '*.min.js'
 ## html minify
-html_minifier:
-  enable: true
+#html_minifier:
+#  enable: true
 #  exclude:
 #css_minifier:
 #  enable: true
@@ -143,7 +144,7 @@ html_minifier:
 
 
 ## Themes: https://hexo.io/themes/
-theme: next7
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

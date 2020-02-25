@@ -611,6 +611,8 @@ comments:
   active: gitalk
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
+  # Lazyload all comment systems.
+  lazyload: true
   # Modify icons and texts for any style, here are some examples.
   nav:
     #disqus: disqus
@@ -753,9 +755,9 @@ application_insights:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: # <app_id>
-  app_key: # <app_key>
+  enable: true
+  app_id: 2QL6dD6mOyWHGh2H7QpPJYJK-gzGzoHsz
+  app_key: 1zzQPCVkUlrtcRjKszGxgUFE
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
