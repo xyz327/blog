@@ -5,8 +5,8 @@ tags:
   - git
 categories:
   - git
-keywords: 'null'
-toc: false
+keywords: 'git,git commit'
+toc: true
 date: 2020-02-28 12:21:49
 ---
 
