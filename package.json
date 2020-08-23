@@ -8,7 +8,7 @@
   "scripts": {
     "update": "git pull origin pages",
     "deploy": "hexo clean && hexo g && hexo d",
-    "build-search": "set HEXO_ALGOLIA_INDEXING_KEY=75a83a055e3a2ab9abf9aef5bf6e2261 && hexo clean && hexo algolia",
+    "build-search": "set HEXO_ALGOLIA_INDEXING_KEY=75a83a055e3a2ab9abf9aef5bf6e2261 && export HEXO_ALGOLIA_INDEXING_KEY=75a83a055e3a2ab9abf9aef5bf6e2261 && hexo clean && hexo algolia",
     "git-commit": "git add -A && git commit -m 'commit'",
     "coding-push": "git push origin pages",
     "github-push": "git push github pages --force",
