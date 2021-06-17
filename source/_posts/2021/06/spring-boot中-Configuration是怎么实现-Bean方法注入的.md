@@ -1,8 +1,8 @@
 ---
 title: spring-boot中@Configuration是怎么实现@Bean方法注入的
 permalink: spring-boot中@Configuration是怎么实现@Bean方法注入的
-tags: []
-categories: []
+tags: ['spring']
+categories: ['spring']
 originContent: ''
 toc: false
 date: 2021-06-03 23:18:14
