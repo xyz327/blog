@@ -15,7 +15,7 @@ date: 2021-05-30 23:09:57
 
 用以10取模的方式依次把x的最小位的数字取出，然后以*10的方式累加
 
-![1.jpg](https://pic.leetcode-cn.com/be35cb60bec9a9ae794abad671e6618abb5664780bc7ee30ca93ca423884a666-1.jpg)
+![1.jpg](https://cdn.xyz327.cn/leetcode-07-01.jpg)
 
 
 ```golang
