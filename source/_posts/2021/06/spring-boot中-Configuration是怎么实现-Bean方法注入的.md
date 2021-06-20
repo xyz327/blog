@@ -1,6 +1,6 @@
 ---
 title: spring-boot中@Configuration是怎么实现@Bean方法注入的
-permalink: spring-boot中@Configuration是怎么实现@Bean方法注入的
+
 tags: ['spring']
 categories: ['spring']
 originContent: ''

@@ -1,6 +1,6 @@
 ---
 title: spring @Bean 注解的用法
-permalink: spring @Bean 注解的用法
+
 tags:
   - spring
 categories:

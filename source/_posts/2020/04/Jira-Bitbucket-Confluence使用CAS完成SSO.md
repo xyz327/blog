@@ -1,6 +1,6 @@
 ---
 title: Jira/Bitbucket/Confluence使用CAS完成SSO
-permalink: Jira/Bitbucket/Confluence使用CAS完成SSO
+
 date: 2020-04-29 21:35:29
 tags:
 categories:

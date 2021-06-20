@@ -1,6 +1,6 @@
 ---
 title: leetcode-07-整数反转
-permalink: leetcode-07-整数反转
+
 tags:
   - leetcode
 categories:

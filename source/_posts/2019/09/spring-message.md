@@ -1,6 +1,6 @@
 ---
 title: spring-message
-permalink: spring-message
+
 date: 2019-09-09 21:18:08
 tags: [spring]
 categories: [spring]

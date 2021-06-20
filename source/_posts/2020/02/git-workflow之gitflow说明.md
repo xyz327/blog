@@ -1,6 +1,6 @@
 ---
 title: git-workflow之gitflow说明
-permalink: git-workflow之gitflow说明
+
 tags:
   - git
   - git-flow

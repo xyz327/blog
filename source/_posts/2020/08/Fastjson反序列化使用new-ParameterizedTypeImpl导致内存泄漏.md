@@ -1,6 +1,6 @@
 ---
 title: Fastjson反序列化使用new ParameterizedTypeImpl导致内存泄漏
-permalink: Fastjson反序列化使用new ParameterizedTypeImpl导致内存泄漏
+
 tags:
   - java
   - fastjson

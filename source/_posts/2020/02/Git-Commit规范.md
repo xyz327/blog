@@ -1,6 +1,6 @@
 ---
 title: Git Commit规范
-permalink: Git Commit规范
+
 tags:
   - git
 categories:

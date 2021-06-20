@@ -1,6 +1,6 @@
 ---
 title: leetcode-01-两数之和
-permalink: leetcode-01-两数之和
+
 tags:
   - leetcode
 categories:

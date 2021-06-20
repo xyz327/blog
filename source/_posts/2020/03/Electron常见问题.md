@@ -1,6 +1,6 @@
 ---
 title: Electron常见问题
-permalink: Electron常见问题
+
 tags:
   - node
   - electron

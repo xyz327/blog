@@ -1,6 +1,6 @@
 ---
 title: git-workflow之gitflow的工具
-permalink: git-workflow之gitflow的工具
+
 tags:
   - git
   - git-flow

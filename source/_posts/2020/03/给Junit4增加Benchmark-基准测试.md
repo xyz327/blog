@@ -1,6 +1,6 @@
 ---
 title: 给Junit4增加Benchmark(基准测试)
-permalink: 给Junit4增加Benchmark(基准测试)
+
 tags:
   - java
   - junit

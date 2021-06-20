@@ -1,6 +1,6 @@
 ---
 title: sentinel相关概念
-permalink: sentinel相关概念
+
 date: 2019-01-07 22:57:49
 tags: sentinel
 categories: sentinel
