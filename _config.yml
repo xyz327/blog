@@ -9,16 +9,16 @@ description: just do IT
 author: xyz327
 email: xyz327@xyz327.cn
 language: zh-CN
-timezone: Asia/Shanghai
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blog.xyz327.cn
 root: /
-#permalink: :year/:month/:day/:title/
-permalink: article/:year-:month-:day-:title.html
+permalink: :year/:month/:day/:title/
+#permalink: article/:title.html
 #permalink: article/:category/:id.html
-permalink_defaults: 
+permalink_defaults:
 
 # Directory
 source_dir: source
@@ -55,9 +55,6 @@ tag_map:
 # sitemap
 sitemap:
   path: sitemap.xml
-  rel: false
-  tags: true
-  categories: true
 baidusitemap:
   path: baidusitemap.xml
 
@@ -127,7 +124,7 @@ qiniu:
     folder: css
 
 ## https://github.com/chenzhutian/hexo-all-minifier
-all_minifier: false
+all_minifier: true
 #js_minifier:
 # enable: true
 # mangle: true
@@ -156,6 +153,9 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
+- type: git
+  repo: https://e.coding.net/xyz327/blog.git
+  branch: coding-pages
 - type: git
   repo:  https://github.com/xyz327/blog.git
   branch: master
